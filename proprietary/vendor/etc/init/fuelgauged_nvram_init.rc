@@ -1,0 +1,7 @@
+#P6 code for HQFEAT-138090 by wangbin at 2025/07/24 start
+#service fuelgauged_nvram /vendor/bin/fuelgauged_nvram
+#    class main
+#    user system
+#    group system
+#    oneshot
+#P6 code for HQFEAT-138090 by wangbin at 2025/07/24 end

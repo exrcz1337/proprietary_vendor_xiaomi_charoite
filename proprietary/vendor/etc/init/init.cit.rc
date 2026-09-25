@@ -1,0 +1,59 @@
+on property:sys.sarcali.trigger=1
+    start sarcalisvc
+
+service sarcalisvc /vendor/bin/sns_sensors_test_and_cal -c 72,3,50000000,0
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+    seclabel u:r:sardiag:s0
+
+
+on property:sys.backlight.trigger=1
+    start backlightsvc
+
+service backlightsvc /vendor/bin/hq_tool backlight
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+    seclabel u:r:hq_tool:s0
+
+on property:sys.backlight_lcm.value=*
+    write /sys/class/leds/lcd-backlight/brightness ${sys.backlight_lcm.value}
+
+on property:sys.nfc_cplc.trigger=1
+    start nfccplcsvc
+
+service nfccplcsvc /vendor/bin/hq_tool nfc_cplc
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+    seclabel u:r:hq_tool:s0
+
+on property:sys.rebootinfo.trigger=1
+    start rebootinfocsvc
+
+service rebootinfocsvc /vendor/bin/hq_tool rebootinfo
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+    seclabel u:r:hq_tool:s0
+
+on property:sys.tpselftest.trigger=1
+    start tpselftestsvc
+
+service tpselftestsvc /vendor/bin/hq_tool tpselftest
+    class main
+    user root
+    disabled
+    oneshot
+    group root system
+    seclabel u:r:hq_tool:s0
+

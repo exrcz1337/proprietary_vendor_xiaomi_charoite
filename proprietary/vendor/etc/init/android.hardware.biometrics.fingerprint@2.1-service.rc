@@ -1,0 +1,22 @@
+on post-fs-data
+   mkdir /data/vendor/fpdump
+   chown system system /data/vendor/fpdump
+   chmod 0700 /data/vendor/fpdump
+   mkdir /mnt/vendor/persist/fingerprint 0777 system system
+   mkdir /mnt/vendor/persist/fpc 0777 system system
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    socket fpsensor_socket stream 0777 system system
+    class late_start
+    user system
+    group system input uhid
+# P6 code for HQFEAT-118101 by p-xiewei79 at 2025/7/10 start
+    #writepid /dev/cpuset/system-background/tasks
+# P6 code for HQFEAT-118101 by p-xiewei79 at 2025/7/10 end
+
+# P6 code for HQFEAT-118101 by p-xiewei79 at 2025/7/3 start
+on property:vendor.fps_hal.restartimes=max
+    stop vendor.fps_hal
+# P6 code for HQFEAT-118101 by p-xiewei79 at 2025/7/3 end

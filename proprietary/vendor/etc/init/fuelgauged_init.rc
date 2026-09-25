@@ -1,0 +1,6 @@
+#P6 code for HQFEAT-138090 by wangbin at 2025/07/24 start
+#service fuelgauged /vendor/bin/fuelgauged
+#    class core
+#    user system
+#    group system
+#P6 code for HQFEAT-138090 by wangbin at 2025/07/24 end

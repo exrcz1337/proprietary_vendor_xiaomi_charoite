@@ -1,0 +1,15 @@
+on post-fs-data
+    mkdir /data/vendor/audiohal 0771 system audio
+
+service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service.mediatek
+    class hal
+    user audioserver
+    # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
+    group audio camera drmrpc inet media mediadrm net_bt net_bt_admin net_bw_acct wakelock context_hub system sdcard_rw
+    capabilities BLOCK_SUSPEND SYS_NICE
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    # P6 code for HQFEAT-120353 by p-dongfeiu1 at 20250623 start
+    socket audio_hw_socket seqpacket 0666 system system
+    # P6 code for HQFEAT-120353 by p-dongfeiu1 at 20250623 end
+    onrestart restart audioserver

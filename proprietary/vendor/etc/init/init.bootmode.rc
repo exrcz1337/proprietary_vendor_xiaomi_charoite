@@ -1,0 +1,13 @@
+#bootmode start service
+service bootmode /vendor/bin/bootmode
+    class main
+    disabled
+    oneshot
+    seclabel u:r:batterysecret:s0
+
+on property:sys.bootmode.enable=1
+    start bootmode
+
+on property:sys.boot_completed=1
+    start bootmode
+

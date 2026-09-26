@@ -11,8 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/META-INF/CERT.RSA:$(TARGET_COPY_OUT_SYSTEM_EXT)/META-INF/CERT.RSA \
     vendor/xiaomi/charoite/proprietary/system_ext/META-INF/CERT.SF:$(TARGET_COPY_OUT_SYSTEM_EXT)/META-INF/CERT.SF \
     vendor/xiaomi/charoite/proprietary/system_ext/META-INF/MANIFEST.MF:$(TARGET_COPY_OUT_SYSTEM_EXT)/META-INF/MANIFEST.MF \
-    vendor/xiaomi/charoite/proprietary/system_ext/apex_build_info.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex_build_info.pb \
-    vendor/xiaomi/charoite/proprietary/system_ext/apex_manifest.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex_manifest.pb \
     vendor/xiaomi/charoite/proprietary/system_ext/apex_payload.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex_payload.img \
     vendor/xiaomi/charoite/proprietary/system_ext/apex_pubkey:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex_pubkey \
     vendor/xiaomi/charoite/proprietary/system_ext/assets/NOTICE.html.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/assets/NOTICE.html.gz \
@@ -245,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/NOTICE_GPL.html.gz \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/aconfig_flags.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aconfig_flags.pb \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/aee-commit:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-commit \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-config \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
@@ -462,14 +459,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/barrage_v3.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/barrage_v3.tflite \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/best_model_green_area_Both.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/best_model_green_area_Both.onnx \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/build_flags.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build_flags.json \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/camera_perfetto.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera_perfetto.cfg \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/cameracustomize.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameracustomize.json \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/cameraopt.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameraopt.json \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/cameraopt_thirdParty.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cameraopt_thirdParty.json \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/camerascene.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camerascene.json \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/compatconfig/settings-platform-compat-config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/compatconfig/settings-platform-compat-config.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/csd_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/csd_model.tflite \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/cust_prop_white_keys_list:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cust_prop_white_keys_list \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
@@ -585,10 +579,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/forcedarkconfig/tv.pps.mobile.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/forcedarkconfig/tv.pps.mobile.json \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/framepredict_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/framepredict_config.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/framepredict_dynconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/framepredict_dynconfig.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/fs_config_dirs:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_dirs \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/fs_config_files:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_files \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/fstab.other:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fstab.other \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/group:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/group \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/hyper_font_fallback.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hyper_font_fallback.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/hyper_fonts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hyper_fonts.xml \
@@ -598,7 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/aee_aed64_v2.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64_v2.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/init/android.hidl.allocator@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hidl.allocator@1.0-service.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/bootlogoupdater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bootlogoupdater.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/bpf_service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bpf_service.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/consyslogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/consyslogger.rc \
@@ -608,7 +598,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/hw/init.usb.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.usb.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/init/hwservicemanager.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hwservicemanager.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/hyper_bpfloader.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hyper_bpfloader.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/hypsys_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hypsys_system.rc \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/init/init.hbt.leroy.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hbt.leroy.rc \
@@ -682,19 +671,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/perf_scene.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf_scene.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/perfinit.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perfinit.conf \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/perfinit_bdsize_zram.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perfinit_bdsize_zram.conf \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/android.software.credentials.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/android.software.credentials.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/androidx.window.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/androidx.window.extensions.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/androidx.window.sidecar.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/androidx.window.sidecar.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/appfunctions.extension.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/appfunctions.extension.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.extensions.appfunctions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.extensions.appfunctions.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.provision.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.provision.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.settingslib.search.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settingslib.search.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.storagemanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.storagemanager.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.systemui.libpag.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.libpag.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.google.android.apps.dialer.call_recording_audio.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.google.lens.feature.CAMERA_INTEGRATION.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.lens.feature.CAMERA_INTEGRATION.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/permissions/com.google.lens.feature.GALLERY_INTEGRATION.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.google.lens.feature.GALLERY_INTEGRATION.xml \
@@ -838,7 +815,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/richtapAsset/eng.traineddata:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/richtapAsset/eng.traineddata \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/richtapAsset/license.dat:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/richtapAsset/license.dat \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/spn-conf.xml \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/sysconfig/android.telephony.satellite.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/android.telephony.satellite.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/sysconfig/com.android.phone.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.android.phone.config.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/sysconfig/initial-package-stopped-states-DebugLoggerUI.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/initial-package-stopped-states-DebugLoggerUI.xml \
@@ -849,7 +825,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/weak_signal_v2.onnx:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/weak_signal_v2.onnx \
     vendor/xiaomi/charoite/proprietary/system_ext/etc/wmshell.protolog.json.gz:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wmshell.protolog.json.gz \
-    vendor/xiaomi/charoite/proprietary/system_ext/etc/wmshell.protolog.pb:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wmshell.protolog.pb \
     vendor/xiaomi/charoite/proprietary/system_ext/lib/libJpegOal.so.hbtf:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libJpegOal.so.hbtf \
     vendor/xiaomi/charoite/proprietary/system_ext/lib/libaudioutilmtk.so.hbtf:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaudioutilmtk.so.hbtf \
     vendor/xiaomi/charoite/proprietary/system_ext/lib/libdisp_dejitter.so.hbtf:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdisp_dejitter.so.hbtf \
@@ -1022,7 +997,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/awinic_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/awinic_param/AW_DSP.bin \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/breakwhiteapplist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/breakwhiteapplist.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/camera/8M_1_morpho_ldc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/8M_1_morpho_ldc.bin \
@@ -1298,7 +1272,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/xiaomi/charoite/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/xiaomi/charoite/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
@@ -1324,19 +1297,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/aee_aedv64_v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64_v2.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-tms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-tms.rc \
@@ -1345,13 +1311,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/boardid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boardid.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/ddr_training.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ddr_training.rc \
@@ -1399,7 +1363,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/memtrack-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack-mediatek.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/miface.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miface.rc \
@@ -1445,11 +1408,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-miteeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-miteeservice.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/init/wallpapercolor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wallpapercolor.rc \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
     vendor/xiaomi/charoite/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
     vendor/xiaomi/charoite/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt \
@@ -1494,9 +1455,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/xiaomi/charoite/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/permissions/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
@@ -1713,7 +1671,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/charoite/proprietary/vendor/etc/thn31_get_current.txt:$(TARGET_COPY_OUT_VENDOR)/etc/thn31_get_current.txt \
     vendor/xiaomi/charoite/proprietary/vendor/etc/thn31_get_freq.txt:$(TARGET_COPY_OUT_VENDOR)/etc/thn31_get_freq.txt \
     vendor/xiaomi/charoite/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
-    vendor/xiaomi/charoite/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/xiaomi/charoite/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/xiaomi/charoite/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
